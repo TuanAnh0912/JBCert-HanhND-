@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <!--<UserSecretsId>fb3d631e-e502-46de-b1e1-7e9481ec44fb</UserSecretsId>-->
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <StartupObject></StartupObject>
+    <UserSecretsId>e1b0251d-eb6d-4973-91f6-6486ca06b50d</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+    <PackageReference Include="EPPlus" Version="5.6.1" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.4.0" />
+    <PackageReference Include="Google.Cloud.Vision.V1" Version="2.2.0" />
+    <PackageReference Include="MailKit" Version="2.10.1" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Core" Version="2.4.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebHelpers" Version="3.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.0" NoWarn="NU1605" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Numpy" Version="3.7.1.25" />
+    <PackageReference Include="OpenCvSharp3-AnyCPU" Version="4.0.0.20181129" />
+    <PackageReference Include="PagedList" Version="1.17.0" />
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+    <PackageReference Include="QRCoder" Version="1.4.1" />
+    <PackageReference Include="Spire.XLS" Version="11.3.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="18.3.0.53" />
+    <PackageReference Include="Twilio" Version="5.51.0" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\jbcert.DATA\jbcert.DATA.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Upload\AnhLoaiBang\" />
+    <Folder Include="Upload\ImportSoGoc\" />
+    <Folder Include="Upload\AnhSoHoa\" />
+    <Folder Include="Upload\Backup\" />
+    <Folder Include="Upload\AnhPhoi\" />
+    <Folder Include="Upload\Upload\" />
+    <Folder Include="Upload\QRCode\QRCodeBang\" />
+    <Folder Include="Upload\Request\" />
+  </ItemGroup>
+
+</Project>

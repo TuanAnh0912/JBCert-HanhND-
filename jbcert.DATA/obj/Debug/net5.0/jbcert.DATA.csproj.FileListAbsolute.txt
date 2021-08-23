@@ -1,0 +1,15 @@
+D:\JBcert-15-4-2021\jbcert.DATA\bin\Debug\net5.0\jbcert.DATA.deps.json
+D:\JBcert-15-4-2021\jbcert.DATA\bin\Debug\net5.0\jbcert.DATA.runtimeconfig.json
+D:\JBcert-15-4-2021\jbcert.DATA\bin\Debug\net5.0\jbcert.DATA.runtimeconfig.dev.json
+D:\JBcert-15-4-2021\jbcert.DATA\bin\Debug\net5.0\jbcert.DATA.dll
+D:\JBcert-15-4-2021\jbcert.DATA\bin\Debug\net5.0\ref\jbcert.DATA.dll
+D:\JBcert-15-4-2021\jbcert.DATA\bin\Debug\net5.0\jbcert.DATA.pdb
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.csprojAssemblyReference.cache
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.GeneratedMSBuildEditorConfig.editorconfig
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.AssemblyInfoInputs.cache
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.AssemblyInfo.cs
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.csproj.CoreCompileInputs.cache
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.dll
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\ref\jbcert.DATA.dll
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.pdb
+D:\JBcert-15-4-2021\jbcert.DATA\obj\Debug\net5.0\jbcert.DATA.genruntimeconfig.cache

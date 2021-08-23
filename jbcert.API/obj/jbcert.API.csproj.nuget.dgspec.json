@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\JBcert-15-4-2021\\jbcert.API\\jbcert.API.csproj": {}
+  },
+  "projects": {
+    "D:\\JBcert-15-4-2021\\jbcert.API\\jbcert.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JBcert-15-4-2021\\jbcert.API\\jbcert.API.csproj",
+        "projectName": "jbcert.API",
+        "projectPath": "D:\\JBcert-15-4-2021\\jbcert.API\\jbcert.API.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\JBcert-15-4-2021\\jbcert.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\JBcert-15-4-2021\\jbcert.DATA\\jbcert.DATA.csproj": {
+                "projectPath": "D:\\JBcert-15-4-2021\\jbcert.DATA\\jbcert.DATA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Google.Cloud.Vision.V1": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebHelpers": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Numpy": {
+              "target": "Package",
+              "version": "[3.7.1.25, )"
+            },
+            "OpenCvSharp3-AnyCPU": {
+              "target": "Package",
+              "version": "[4.0.0.20181129, )"
+            },
+            "PagedList": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "PdfSharp": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Spire.XLS": {
+              "target": "Package",
+              "version": "[11.3.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Syncfusion.XlsIO.Net.Core": {
+              "target": "Package",
+              "version": "[18.3.0.53, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.51.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\JBcert-15-4-2021\\jbcert.DATA\\jbcert.DATA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JBcert-15-4-2021\\jbcert.DATA\\jbcert.DATA.csproj",
+        "projectName": "jbcert.DATA",
+        "projectPath": "D:\\JBcert-15-4-2021\\jbcert.DATA\\jbcert.DATA.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\JBcert-15-4-2021\\jbcert.DATA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "Google.Cloud.Storage.V1": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Google.Cloud.Vision.V1": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
